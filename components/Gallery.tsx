@@ -1,18 +1,12 @@
 const Gallery = () => {
     return (
-        <div>
+        <div id="gallery">
             <div className="hotel-gallery">
                 <div className="container">
                     <div className="gallery-header text-center mb-5">
                         <h2 className="gallery-title">Visual Elegance</h2>
                         <p className="gallery-subtitle">A curated collection showcasing the beauty of LuxuryStay Hotels</p>
-                        <div className="gallery-filter">
-                            <button className="filter-btn active">All Spaces</button>
-                            <button className="filter-btn">Rooms</button>
-                            <button className="filter-btn">Amenities</button>
-                            <button className="filter-btn">Dining</button>
-                            <button className="filter-btn">Events</button>
-                        </div>
+
                     </div>
 
                     <div className="gallery-grid">
@@ -28,9 +22,6 @@ const Gallery = () => {
                                     <div className="gallery-content">
                                         <h3 className="image-title">Grand Lobby</h3>
                                         <p className="image-caption">Elegant architecture meets contemporary luxury</p>
-                                        <button className="gallery-view-btn">
-                                            <i className="fas fa-search-plus"></i> Enlarge
-                                        </button>
                                     </div>
                                 </div>
                             </div>
@@ -172,11 +163,6 @@ const Gallery = () => {
                         </div>
                     </div>
 
-                    <div className="gallery-footer text-center mt-5">
-                        <button className="load-more-btn">
-                            <i className="fas fa-images me-2"></i> View More in Gallery
-                        </button>
-                    </div>
                 </div>
             </div>
 

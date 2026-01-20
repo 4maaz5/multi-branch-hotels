@@ -5,7 +5,7 @@ const Guest = () => {
             <div className="container">
                 <div className="reviews-header text-center mb-5">
                     <h2 className="reviews-title">Guest Experiences</h2>
-                    <p className="reviews-subtitle">What our valued guests say about their stay at LuxuryStay</p>
+                    <p className="reviews-subtitle">What our valued guests say about their stay at DURRAMAH</p>
                     <div className="overall-rating">
                         <div className="rating-stars">
                             <i className="fas fa-star"></i>
@@ -14,11 +14,7 @@ const Guest = () => {
                             <i className="fas fa-star"></i>
                             <i className="fas fa-star-half-alt"></i>
                         </div>
-                        <div className="rating-score">
-                            <span className="score">4.8</span>
-                            <span className="out-of">/5</span>
-                        </div>
-                        <p className="rating-text">Based on 2,847 reviews</p>
+                      
                     </div>
                 </div>
 

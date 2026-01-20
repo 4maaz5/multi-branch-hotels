@@ -9,7 +9,7 @@ const Footer = () => {
                             <div className="footer-brand">
                                 <div className="footer-logo">
                                     <i className="fas fa-hotel"></i>
-                                    <span className="footer-logo-text">LuxuryStay</span>
+                                    <span className="footer-logo-text">DURRAMAH</span>
                                 </div>
                                 <p className="footer-description mt-3">
                                     Experience world-class luxury hospitality across our premium hotels
@@ -39,11 +39,11 @@ const Footer = () => {
                         <div className="col-lg-2 col-md-4 mb-5 mb-md-0">
                             <h4 className="footer-heading">Quick Links</h4>
                             <ul className="footer-links">
-                                <li><a href="#"><i className="fas fa-chevron-right"></i> Home</a></li>
-                                <li><a href="#"><i className="fas fa-chevron-right"></i> Rooms & Suites</a></li>
-                                <li><a href="#"><i className="fas fa-chevron-right"></i> Amenities</a></li>
-                                <li><a href="#"><i className="fas fa-chevron-right"></i> Gallery</a></li>
-                                <li><a href="#"><i className="fas fa-chevron-right"></i> Special Offers</a></li>
+                                <li><a href="#home"><i className="fas fa-chevron-right"></i> Home</a></li>
+                                <li><a href="#about"><i className="fas fa-chevron-right"></i> About</a></li>
+                                <li><a href="#branches"><i className="fas fa-chevron-right"></i> Branches</a></li>
+                                <li><a href="#rooms"><i className="fas fa-chevron-right"></i> Rooms</a></li>
+                                <li><a href="#gallery"><i className="fas fa-chevron-right"></i> Gallery</a></li>
                             </ul>
                         </div>
 
@@ -106,14 +106,14 @@ const Footer = () => {
                 <div className="container">
                     <div className="footer-bottom-content">
                         <div className="copyright">
-                            <p>&copy; {new Date().getFullYear()} LuxuryStay Hotels & Resorts. All Rights Reserved.</p>
+                            <p>&copy; {new Date().getFullYear()} DURRAMAH Hotels & Resorts. All Rights Reserved.</p>
                         </div>
-                        <div className="footer-legal">
+                        {/* <div className="footer-legal">
                             <a href="#">Privacy Policy</a>
                             <a href="#">Terms of Service</a>
                             <a href="#">Cookie Policy</a>
                             <a href="#">Accessibility</a>
-                        </div>
+                        </div> */}
                         <div className="payment-methods">
                             <i className="fab fa-cc-visa" title="Visa"></i>
                             <i className="fab fa-cc-mastercard" title="Mastercard"></i>

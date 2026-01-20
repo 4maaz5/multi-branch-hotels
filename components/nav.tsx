@@ -1,10 +1,10 @@
 const Navbar = () => {
     return (
-        <nav className="navbar">
+        <nav className="navbar" id="home">
             <div className="nav-container">
-                <a href="#" className="logo">
+                <a href="#home" className="logo">
                     <i className="fas fa-hotel logo-icon"></i>
-                    <span className="logo-text">LuxuryStay</span>
+                    <span className="logo-text">DURRAMAH</span>
                 </a>
 
                 <div className="mobile-toggle" id="mobile-toggle">
@@ -13,33 +13,24 @@ const Navbar = () => {
 
                 <ul className="nav-menu" id="nav-menu">
                     <li className="nav-item">
-                        <a href="#" className="nav-link active">Home</a>
+                        <a href="#home" className="nav-link active">Home</a>
                     </li>
                     <li className="nav-item">
-                        <a href="#" className="nav-link">Rooms & Suites</a>
+                        <a href="#about" className="nav-link">About Us</a>
                     </li>
                     <li className="nav-item">
-                        <a href="#" className="nav-link">Amenities</a>
+                        <a href="#branches" className="nav-link">Branches</a>
                     </li>
                     <li className="nav-item">
-                        <a href="#" className="nav-link">Destinations</a>
+                        <a href="#rooms" className="nav-link">Rooms</a>
                     </li>
                     <li className="nav-item">
-                        <a href="#" className="nav-link">Deals</a>
+                        <a href="#gallery" className="nav-link">Gallery</a>
                     </li>
-                    <li className="nav-item">
-                        <a href="#" className="nav-link">Contact</a>
-                    </li>
-                </ul>
-
-                <div className="user-actions">
                     <button className="booking-btn" id="bookNowBtn">
-                        <i className="fas fa-calendar-check"></i> Book Now
+                        <i className="fas fa-calendar-check"></i> EN / AR
                     </button>
-                    <div className="user-icon">
-                        <i className="fas fa-user"></i>
-                    </div>
-                </div>
+                </ul>
             </div>
         </nav>
     )

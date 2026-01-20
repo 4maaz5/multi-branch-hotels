@@ -1,6 +1,6 @@
 const Content = () => {
     return (
-        <div className="branches-container">
+        <div className="branches-container" id="branches">
             <div className="container">
                 <div className="branches-header text-center mb-5">
                     <h2 className="branches-title">Our Luxury Branches</h2>
@@ -19,7 +19,7 @@ const Content = () => {
                                     className="branch-image"
                                 />
                                 <div className="branch-overlay">
-                                    <span className="branch-tag">Premium</span>
+                                    <span className="branch-tag ">Premium</span>
                                     <div className="branch-rating">
                                         <i className="fas fa-star"></i>
                                         <i className="fas fa-star"></i>
@@ -43,16 +43,6 @@ const Content = () => {
                                     <span><i className="fas fa-wifi"></i> Free WiFi</span>
                                     <span><i className="fas fa-swimming-pool"></i> Infinity Pool</span>
                                     <span><i className="fas fa-utensils"></i> 5 Restaurants</span>
-                                </div>
-                                <div className="branch-footer">
-                                    <div className="branch-price">
-                                        <span className="price-from">From</span>
-                                        <span className="price-amount">$899</span>
-                                        <span className="price-night">/ night</span>
-                                    </div>
-                                    <button className="branch-book-btn">
-                                        <i className="fas fa-calendar-alt me-2"></i> Book Now
-                                    </button>
                                 </div>
                             </div>
                         </div>
@@ -85,16 +75,6 @@ const Content = () => {
                                     <span><i className="fas fa-dumbbell"></i> Gym</span>
                                     <span><i className="fas fa-cocktail"></i> Rooftop Bar</span>
                                 </div>
-                                <div className="branch-footer">
-                                    <div className="branch-price">
-                                        <span className="price-from">From</span>
-                                        <span className="price-amount">$750</span>
-                                        <span className="price-night">/ night</span>
-                                    </div>
-                                    <button className="branch-book-btn">
-                                        <i className="fas fa-calendar-alt me-2"></i> Book Now
-                                    </button>
-                                </div>
                             </div>
                         </div>
                     </div>
@@ -125,16 +105,6 @@ const Content = () => {
                                     <span><i className="fas fa-wine-glass-alt"></i> Wine Cellar</span>
                                     <span><i className="fas fa-parking"></i> Valet Parking</span>
                                     <span><i className="fas fa-concierge-bell"></i> 24/7 Concierge</span>
-                                </div>
-                                <div className="branch-footer">
-                                    <div className="branch-price">
-                                        <span className="price-from">From</span>
-                                        <span className="price-amount">$650</span>
-                                        <span className="price-night">/ night</span>
-                                    </div>
-                                    <button className="branch-book-btn">
-                                        <i className="fas fa-calendar-alt me-2"></i> Book Now
-                                    </button>
                                 </div>
                             </div>
                         </div>
@@ -167,16 +137,6 @@ const Content = () => {
                                     <span><i className="fas fa-yoga"></i> Yoga Studio</span>
                                     <span><i className="fas fa-tree"></i> Garden Views</span>
                                 </div>
-                                <div className="branch-footer">
-                                    <div className="branch-price">
-                                        <span className="price-from">From</span>
-                                        <span className="price-amount">$550</span>
-                                        <span className="price-night">/ night</span>
-                                    </div>
-                                    <button className="branch-book-btn">
-                                        <i className="fas fa-calendar-alt me-2"></i> Book Now
-                                    </button>
-                                </div>
                             </div>
                         </div>
                     </div>
@@ -207,16 +167,6 @@ const Content = () => {
                                     <span><i className="fas fa-briefcase"></i> Business Center</span>
                                     <span><i className="fas fa-cookie-bite"></i> 24/7 Room Service</span>
                                     <span><i className="fas fa-theater-masks"></i> Theater Packages</span>
-                                </div>
-                                <div className="branch-footer">
-                                    <div className="branch-price">
-                                        <span className="price-from">From</span>
-                                        <span className="price-amount">$850</span>
-                                        <span className="price-night">/ night</span>
-                                    </div>
-                                    <button className="branch-book-btn">
-                                        <i className="fas fa-calendar-alt me-2"></i> Book Now
-                                    </button>
                                 </div>
                             </div>
                         </div>
@@ -249,26 +199,11 @@ const Content = () => {
                                     <span><i className="fas fa-hot-tub"></i> Onsen Spa</span>
                                     <span><i className="fas fa-subway"></i> Metro Access</span>
                                 </div>
-                                <div className="branch-footer">
-                                    <div className="branch-price">
-                                        <span className="price-from">From</span>
-                                        <span className="price-amount">$720</span>
-                                        <span className="price-night">/ night</span>
-                                    </div>
-                                    <button className="branch-book-btn">
-                                        <i className="fas fa-calendar-alt me-2"></i> Book Now
-                                    </button>
-                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
 
-                <div className="text-center mt-5">
-                    <button className="btn btn-outline-primary btn-lg">
-                        <i className="fas fa-globe-americas me-2"></i> View All 24 Branches Worldwide
-                    </button>
-                </div>
             </div>
         </div>
 

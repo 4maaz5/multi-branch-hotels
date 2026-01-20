@@ -1,6 +1,6 @@
 const About = () => {
     return (
-        <div className="about-section">
+        <div className="about-section" id="about">
             <div className="container">
                 <div className="row align-items-center">
                     <div className="col-lg-6 mb-5 mb-lg-0">
@@ -30,7 +30,7 @@ const About = () => {
                     <div className="col-lg-6">
                         <div className="about-content">
                             <div className="section-label">
-                                <span className="label-text">About LuxuryStay</span>
+                                <span className="label-text">About DURRAMAH</span>
                             </div>
                             <h2 className="about-title">Redefining Luxury Hospitality Since 1995</h2>
 
@@ -98,14 +98,6 @@ const About = () => {
                                 </div>
                             </div>
 
-                            <div className="about-cta">
-                                <button className="btn-primary">
-                                    <i className="fas fa-history me-2"></i> Our Story
-                                </button>
-                                <button className="btn-outline">
-                                    <i className="fas fa-handshake me-2"></i> Our Philosophy
-                                </button>
-                            </div>
                         </div>
                     </div>
                 </div>
