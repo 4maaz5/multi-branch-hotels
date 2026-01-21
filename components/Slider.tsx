@@ -1,7 +1,9 @@
-// components/HotelCarousel.js
+"use client";
+import { useTranslations } from 'next-intl';
 import Image from 'next/image';
 
 export default function Slider() {
+    const t = useTranslations("slider")
     return (
         <div className="container my-5">
             <div className="row justify-content-center">
@@ -47,8 +49,8 @@ export default function Slider() {
                                         style={{ objectFit: 'cover', objectPosition: 'center' }}
                                     />
                                     <div className="carousel-caption d-none d-md-block bg-dark bg-opacity-75 p-4 rounded-3">
-                                        <h3 className="fw-bold mb-2">Wellness Spa</h3>
-                                        <p className="fs-5 mb-0">Rejuvenate your mind and body with exclusive treatments</p>
+                                        <h3 className="fw-bold mb-2">{t("wellness_spa")}</h3>
+                                        <p className="fs-5 mb-0">{t("rejuvenate_your_mind")}</p>
                                     </div>
                                 </div>
                             </div>
@@ -63,8 +65,8 @@ export default function Slider() {
                                         style={{ objectFit: 'cover', objectPosition: 'center' }}
                                     />
                                     <div className="carousel-caption d-none d-md-block bg-dark bg-opacity-75 p-4 rounded-3">
-                                        <h3 className="fw-bold mb-2">Fine Dining Experience</h3>
-                                        <p className="fs-5 mb-0">Gourmet cuisine prepared by award-winning chefs</p>
+                                        <h3 className="fw-bold mb-2">{t("fine_dining_experience")}</h3>
+                                        <p className="fs-5 mb-0">{t("gourmet_cuisine_prepared")}</p>
                                     </div>
                                 </div>
                             </div>
@@ -79,8 +81,8 @@ export default function Slider() {
                                         style={{ objectFit: 'cover', objectPosition: 'center' }}
                                     />
                                     <div className="carousel-caption d-none d-md-block bg-dark bg-opacity-75 p-4 rounded-3">
-                                        <h3 className="fw-bold mb-2">Grand Lobby</h3>
-                                        <p className="fs-5 mb-0">Elegant architecture with luxurious seating areas</p>
+                                        <h3 className="fw-bold mb-2">{t("grand_lobby")}</h3>
+                                        <p className="fs-5 mb-0">{t("elegant_architecture_with")}</p>
                                     </div>
                                 </div>
                             </div>
@@ -102,7 +104,7 @@ export default function Slider() {
                                 }}
                                 aria-hidden="true"
                             ></span>
-                            <span className="visually-hidden">Previous</span>
+                            <span className="visually-hidden">{t("previous")}</span>
                         </button>
 
                         <button
@@ -120,7 +122,7 @@ export default function Slider() {
                                 }}
                                 aria-hidden="true"
                             ></span>
-                            <span className="visually-hidden">Next</span>
+                            <span className="visually-hidden">{t("next")}</span>
                         </button>
                     </div>
                 </div>

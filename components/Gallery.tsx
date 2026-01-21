@@ -5,7 +5,7 @@ const Gallery = () => {
                 <div className="container">
                     <div className="gallery-header text-center mb-5">
                         <h2 className="gallery-title">Visual Elegance</h2>
-                        <p className="gallery-subtitle">A curated collection showcasing the beauty of LuxuryStay Hotels</p>
+                        <p className="gallery-subtitle">A curated collection showcasing the beauty of DURRAMAH Hotels</p>
 
                     </div>
 

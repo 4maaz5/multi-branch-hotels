@@ -5,7 +5,9 @@ const Guest = () => {
             <div className="container">
                 <div className="reviews-header text-center mb-5">
                     <h2 className="reviews-title">Guest Experiences</h2>
-                    <p className="reviews-subtitle">What our valued guests say about their stay at DURRAMAH</p>
+                    <p className="reviews-subtitle">
+                        What our valued guests say about their stay at DURRAMAH Hotels & Resorts across Saudi Arabia
+                    </p>
                     <div className="overall-rating">
                         <div className="rating-stars">
                             <i className="fas fa-star"></i>
@@ -14,7 +16,6 @@ const Guest = () => {
                             <i className="fas fa-star"></i>
                             <i className="fas fa-star-half-alt"></i>
                         </div>
-                      
                     </div>
                 </div>
 
@@ -33,7 +34,7 @@ const Guest = () => {
                                 <div className="reviewer-details">
                                     <h4 className="reviewer-name">Michael & Sarah Johnson</h4>
                                     <p className="reviewer-location">
-                                        <i className="fas fa-map-marker-alt"></i> New York, USA
+                                        <i className="fas fa-map-marker-alt"></i> California, USA
                                     </p>
                                 </div>
                             </div>
@@ -50,21 +51,21 @@ const Guest = () => {
                         </div>
 
                         <div className="review-content">
-                            <h3 className="review-title">Perfect Honeymoon Experience</h3>
+                            <h3 className="review-title">Unforgettable Saudi Honeymoon</h3>
                             <p className="review-text">
-                                "Our honeymoon at the Maldives property was nothing short of magical. From the overwater villa
-                                with glass floors to the personalized butler service, every detail was perfect. The sunset dinner
-                                on the private beach was the highlight of our stay!"
+                                "Our honeymoon at DURRAMAH was beyond expectations. The Arabian-inspired suite, private balcony,
+                                and exceptional hospitality made our stay truly special. From sunset views to personalized service,
+                                everything reflected luxury and authentic Saudi warmth."
                             </p>
                             <div className="review-stay">
                                 <span className="stay-info">
-                                    <i className="fas fa-bed"></i> Presidential Suite
+                                    <i className="fas fa-bed"></i> Royal Suite
                                 </span>
                                 <span className="stay-info">
-                                    <i className="fas fa-moon"></i> 7 Nights
+                                    <i className="fas fa-moon"></i> 6 Nights
                                 </span>
                                 <span className="stay-info">
-                                    <i className="fas fa-map-pin"></i> Maldives Branch
+                                    <i className="fas fa-map-pin"></i> Riyadh Branch
                                 </span>
                             </div>
                         </div>
@@ -111,15 +112,15 @@ const Guest = () => {
                         </div>
 
                         <div className="review-content">
-                            <h3 className="review-title">Exceptional Business Stay</h3>
+                            <h3 className="review-title">Ideal Business Stay in Riyadh</h3>
                             <p className="review-text">
-                                "As a frequent business traveler, I've stayed in countless hotels. The Dubai branch stands out
-                                for its impeccable service. The executive lounge and 24-hour business center made my work
-                                seamless. The view of the Burj Khalifa from my room was breathtaking."
+                                "DURRAMAH exceeded my expectations for a business trip. The executive suite, fast internet,
+                                prayer facilities, and professional service made my stay productive and comfortable.
+                                A perfect choice for business travelers in Saudi Arabia."
                             </p>
                             <div className="review-tags">
                                 <span className="tag">Business Travel</span>
-                                <span className="tag">Excellent Service</span>
+                                <span className="tag">Executive Comfort</span>
                             </div>
                         </div>
 
@@ -162,15 +163,15 @@ const Guest = () => {
                         </div>
 
                         <div className="review-content">
-                            <h3 className="review-title">Perfect Family Vacation</h3>
+                            <h3 className="review-title">Perfect Family Experience</h3>
                             <p className="review-text">
-                                "Traveling with three kids can be challenging, but the Bali resort made it effortless. The kids'
-                                club was amazing, and the connecting rooms gave us both privacy and family time. The staff went
-                                above and beyond to accommodate our needs."
+                                "Traveling with children was stress-free at DURRAMAH. The spacious family suite,
+                                friendly staff, and thoughtful amenities made our Saudi vacation enjoyable and relaxing.
+                                Our kids loved the space, and we loved the comfort."
                             </p>
                             <div className="review-tags">
                                 <span className="tag">Family Friendly</span>
-                                <span className="tag">Kids Activities</span>
+                                <span className="tag">Spacious Suites</span>
                             </div>
                         </div>
 
@@ -196,7 +197,7 @@ const Guest = () => {
                                 <div className="reviewer-details">
                                     <h4 className="reviewer-name">Emma Rodriguez</h4>
                                     <p className="reviewer-location">
-                                        <i className="fas fa-map-marker-alt"></i> Paris, France
+                                        <i className="fas fa-map-marker-alt"></i> Madrid, Spain
                                     </p>
                                 </div>
                             </div>
@@ -213,15 +214,15 @@ const Guest = () => {
                         </div>
 
                         <div className="review-content">
-                            <h3 className="review-title">Romantic Anniversary Getaway</h3>
+                            <h3 className="review-title">Romantic Saudi Getaway</h3>
                             <p className="review-text">
-                                "Celebrated our 10th anniversary at the Paris branch. The romantic suite with Eiffel Tower views,
-                                champagne on arrival, and rose petal turndown service created memories we'll cherish forever.
-                                The concierge arranged the perfect Seine river cruise."
+                                "Our stay was elegant and peaceful. The Arabian décor, warm hospitality,
+                                and attention to detail made our anniversary unforgettable.
+                                DURRAMAH truly reflects Saudi luxury and charm."
                             </p>
                             <div className="review-tags">
-                                <span className="tag">Anniversary</span>
-                                <span className="tag">Romantic</span>
+                                <span className="tag">Romantic Stay</span>
+                                <span className="tag">Luxury Experience</span>
                             </div>
                         </div>
 
@@ -247,7 +248,7 @@ const Guest = () => {
                                 <div className="reviewer-details">
                                     <h4 className="reviewer-name">David Miller</h4>
                                     <p className="reviewer-location">
-                                        <i className="fas fa-map-marker-alt"></i> Tokyo, Japan
+                                        <i className="fas fa-map-marker-alt"></i> Toronto, Canada
                                     </p>
                                 </div>
                             </div>
@@ -264,15 +265,15 @@ const Guest = () => {
                         </div>
 
                         <div className="review-content">
-                            <h3 className="review-title">Perfect Solo Retreat</h3>
+                            <h3 className="review-title">Relaxing Solo Stay</h3>
                             <p className="review-text">
-                                "As a solo traveler looking for relaxation, the spa facilities were exceptional. The traditional
-                                onsen experience and meditation sessions were rejuvenating. The location was perfect for exploring
-                                Tokyo while having a peaceful retreat to return to."
+                                "I was looking for a calm and comfortable stay, and DURRAMAH delivered.
+                                The peaceful atmosphere, wellness facilities, and respectful service
+                                made my solo visit to Saudi Arabia truly refreshing."
                             </p>
                             <div className="review-tags">
                                 <span className="tag">Solo Travel</span>
-                                <span className="tag">Spa & Wellness</span>
+                                <span className="tag">Wellness</span>
                             </div>
                         </div>
 
@@ -287,6 +288,7 @@ const Guest = () => {
                 </div>
             </div>
         </div>
+
     )
 }
 export default Guest;

@@ -66,7 +66,7 @@ const Footer = () => {
                             <ul className="footer-contact">
                                 <li>
                                     <i className="fas fa-map-marker-alt"></i>
-                                    <span>LuxuryStay Headquarters<br />123 Park Avenue, New York, NY 10022</span>
+                                    <span>DURRAMAH Headquarters<br />123 Riyadh, Saudi Arabia, NY 10022</span>
                                 </li>
                                 <li>
                                     <i className="fas fa-phone"></i>

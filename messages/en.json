@@ -1,0 +1,40 @@
+{
+    "header": {
+        "logo": "DURRAMAH",
+        "home": "Home",
+        "about": "About Us",
+        "branches": "Branches",
+        "rooms": "Rooms",
+        "gallery": "Gallery",
+        "toggle": "AR"
+    },
+    "slider": {
+        "wellness_spa": "Wellness Spa",
+        "rejuvenate_your_mind": "Rejuvenate your mind and body with exclusive treatments",
+        "fine_dining_experience": "Fine Dining Experience",
+        "gourmet_cuisine_prepared": "Gourmet cuisine prepared by award-winning chefs",
+        "grand_lobby": "Grand Lobby",
+        "elegant_architecture_with": "Elegant architecture with luxurious seating areas",
+        "previous": "Previous",
+        "next": "Next"
+    },
+    "about": {
+        "about_durramah": "About DURRAMAH",
+        "saudi_hospitality_rooted": "Saudi Hospitality Rooted in Tradition, Elevated by Luxury",
+        "for_over_two_decades": "For over two decades, DURRAMAH has proudly represented the essence of Saudi hospitality — where heritage, generosity, and modern luxury come together. From the heart of the Kingdom, we create refined experiences for travelers, families, and business guests seeking comfort, authenticity, and excellence.",
+        "excelance_and_quality": "Excellence & Quality",
+        "recognized_for_premium_service": "Recognized for premium service standards",
+        "strategic_locations": "Strategic Locations",
+        "prime_properties": "Prime Properties",
+        "guest_centered_service": "Guest Centered Service",
+        "trusted_by_families": "Trusted by families and business travelers",
+        "sustainable_vision": "Sustainable Vision",
+        "aligned_with_saudi": "Aligned with Saudi vision 2030",
+        "years_of_hospitality": "Years Of Hospitality",
+        "satisfied_guests": "Satisfied Guests",
+        "cities_accross_ksa": "Cities Accross KSA"
+    },
+    "branches": {
+       
+    }
+}

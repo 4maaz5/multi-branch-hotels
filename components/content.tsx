@@ -1,211 +1,218 @@
+
 const Content = () => {
     return (
         <div className="branches-container" id="branches">
             <div className="container">
                 <div className="branches-header text-center mb-5">
-                    <h2 className="branches-title">Our Luxury Branches</h2>
-                    <p className="branches-subtitle">Experience world-class hospitality at our premium locations worldwide</p>
+                    <h2 className="branches-title">Our Saudi Branches</h2>
+                    <p className="branches-subtitle">
+                        Experience authentic Saudi hospitality across our premium locations in the Kingdom
+                    </p>
                     <div className="divider"></div>
                 </div>
 
                 <div className="row g-4">
-                    {/* Branch 1 - Maldives */}
+
+                    {/* Branch 1 - Riyadh */}
                     <div className="col-md-6 col-lg-4">
                         <div className="branch-card">
                             <div className="branch-image-wrapper">
                                 <img
-                                    src="https://images.unsplash.com/photo-1519046904884-53103b34b206?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
-                                    alt="Maldives Overwater Villa"
+                                    src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=800&q=80"
+                                    alt="Riyadh Luxury Hotel"
                                     className="branch-image"
                                 />
                                 <div className="branch-overlay">
-                                    <span className="branch-tag ">Premium</span>
+                                    <span className="branch-tag">Premium</span>
                                     <div className="branch-rating">
                                         <i className="fas fa-star"></i>
                                         <i className="fas fa-star"></i>
                                         <i className="fas fa-star"></i>
                                         <i className="fas fa-star"></i>
                                         <i className="fas fa-star-half-alt"></i>
-                                        <span className="rating-text">4.7</span>
+                                        <span className="rating-text">4.8</span>
                                     </div>
                                 </div>
                             </div>
                             <div className="branch-content">
                                 <div className="branch-location">
                                     <i className="fas fa-map-marker-alt text-primary"></i>
-                                    <span className="branch-country">Maldives</span>
+                                    <span className="branch-country">Riyadh, Saudi Arabia</span>
                                 </div>
-                                <h3 className="branch-name">LuxuryStay Overwater Villas</h3>
+                                <h3 className="branch-name">Durramah Riyadh Central</h3>
                                 <p className="branch-description">
-                                    Private overwater bungalows with glass floors, direct ocean access, and sunset views.
+                                    A modern luxury hotel in the heart of Riyadh, designed for business and family stays.
                                 </p>
                                 <div className="branch-features">
                                     <span><i className="fas fa-wifi"></i> Free WiFi</span>
-                                    <span><i className="fas fa-swimming-pool"></i> Infinity Pool</span>
-                                    <span><i className="fas fa-utensils"></i> 5 Restaurants</span>
+                                    <span><i className="fas fa-briefcase"></i> Business Center</span>
+                                    <span><i className="fas fa-utensils"></i> Fine Dining</span>
                                 </div>
                             </div>
                         </div>
                     </div>
 
-                    {/* Branch 2 - Dubai */}
+                    {/* Branch 2 - Jeddah */}
+                    <div className="col-md-6 col-lg-4">
+                        <div className="branch-card">
+                            <div className="branch-image-wrapper">
+                                <img
+                                    src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=800&q=80"
+                                    alt="Jeddah Corniche Hotel"
+                                    className="branch-image"
+                                />
+                                <div className="branch-overlay">
+                                    <span className="branch-tag trending">Sea View</span>
+                                </div>
+                            </div>
+                            <div className="branch-content">
+                                <div className="branch-location">
+                                    <i className="fas fa-map-marker-alt text-primary"></i>
+                                    <span className="branch-country">Jeddah, Saudi Arabia</span>
+                                </div>
+                                <h3 className="branch-name">Durramah Jeddah Corniche</h3>
+                                <p className="branch-description">
+                                    Elegant seaside hospitality along the Red Sea with stunning sunset views.
+                                </p>
+                                <div className="branch-features">
+                                    <span><i className="fas fa-water"></i> Sea View</span>
+                                    <span><i className="fas fa-spa"></i> Luxury Spa</span>
+                                    <span><i className="fas fa-swimming-pool"></i> Infinity Pool</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    {/* Branch 3 - Makkah */}
+                    <div className="col-md-6 col-lg-4">
+                        <div className="branch-card">
+                            <div className="branch-image-wrapper">
+                                <img
+                                    src="https://images.unsplash.com/photo-1588072432836-e10032774350?auto=format&fit=crop&w=800&q=80"
+                                    alt="Makkah Hotel Near Haram"
+                                    className="branch-image"
+                                />
+                                <div className="branch-overlay">
+                                    <span className="branch-tag">Spiritual</span>
+                                </div>
+                            </div>
+                            <div className="branch-content">
+                                <div className="branch-location">
+                                    <i className="fas fa-map-marker-alt text-primary"></i>
+                                    <span className="branch-country">Makkah, Saudi Arabia</span>
+                                </div>
+                                <h3 className="branch-name">Durramah Makkah View</h3>
+                                <p className="branch-description">
+                                    Comfortable and peaceful accommodation near the Holy Mosque for Umrah and Hajj guests.
+                                </p>
+                                <div className="branch-features">
+                                    <span><i className="fas fa-mosque"></i> Haram Proximity</span>
+                                    <span><i className="fas fa-concierge-bell"></i> 24/7 Service</span>
+                                    <span><i className="fas fa-coffee"></i> Arabic Lounge</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    {/* Branch 4 - Madinah */}
+                    <div className="col-md-6 col-lg-4">
+                        <div className="branch-card">
+                            <div className="branch-image-wrapper">
+                                <img
+                                    src="https://images.unsplash.com/photo-1585670149967-b4f4da88cc9f?auto=format&fit=crop&w=800&q=80"
+                                    alt="Madinah Hotel"
+                                    className="branch-image"
+                                />
+                                <div className="branch-overlay">
+                                    <span className="branch-tag">Sacred</span>
+                                </div>
+                            </div>
+                            <div className="branch-content">
+                                <div className="branch-location">
+                                    <i className="fas fa-map-marker-alt text-primary"></i>
+                                    <span className="branch-country">Madinah, Saudi Arabia</span>
+                                </div>
+                                <h3 className="branch-name">Durramah Madinah Serenity</h3>
+                                <p className="branch-description">
+                                    A serene stay near Al-Masjid an-Nabawi designed for spiritual comfort and peace.
+                                </p>
+                                <div className="branch-features">
+                                    <span><i className="fas fa-mosque"></i> Mosque Access</span>
+                                    <span><i className="fas fa-bed"></i> Family Rooms</span>
+                                    <span><i className="fas fa-shuttle-van"></i> Shuttle Service</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    {/* Branch 5 - AlUla */}
+                    <div className="col-md-6 col-lg-4">
+                        <div className="branch-card">
+                            <div className="branch-image-wrapper">
+
+                                <img
+                                    src="https://images.unsplash.com/photo-1610878180933-123728745d22?auto=format&fit=crop&w=800&q=80"
+                                    alt="AlUla Desert Resort"
+                                    className="branch-image"
+                                />
+                                <div className="branch-overlay">
+                                    <span className="branch-tag">Heritage</span>
+                                </div>
+                            </div>
+                            <div className="branch-content">
+                                <div className="branch-location">
+                                    <i className="fas fa-map-marker-alt text-primary"></i>
+                                    <span className="branch-country">AlUla, Saudi Arabia</span>
+                                </div>
+                                <h3 className="branch-name">Durramah AlUla Heritage Resort</h3>
+                                <p className="branch-description">
+                                    A unique luxury desert retreat surrounded by ancient history and breathtaking landscapes.
+                                </p>
+                                <div className="branch-features">
+                                    <span><i className="fas fa-mountain"></i> Desert Views</span>
+                                    <span><i className="fas fa-leaf"></i> Eco Luxury</span>
+                                    <span><i className="fas fa-campground"></i> Cultural Tours</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    {/* Branch 6 - NEOM */}
                     <div className="col-md-6 col-lg-4">
                         <div className="branch-card">
                             <div className="branch-image-wrapper">
                                 <img
                                     src="https://images.unsplash.com/photo-1512917774080-9991f1c4c750?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
-                                    alt="Dubai Skyline Hotel"
+                                    alt="NEOM Future City Saudi Arabia"
                                     className="branch-image"
                                 />
-                                <div className="branch-overlay">
-                                    <span className="branch-tag trending">Trending</span>
-                                </div>
-                            </div>
-                            <div className="branch-content">
-                                <div className="branch-location">
-                                    <i className="fas fa-map-marker-alt text-primary"></i>
-                                    <span className="branch-country">Dubai, UAE</span>
-                                </div>
-                                <h3 className="branch-name">Burj Al LuxuryStay</h3>
-                                <p className="branch-description">
-                                    Sky-high luxury in the heart of Downtown Dubai with panoramic city and fountain views.
-                                </p>
-                                <div className="branch-features">
-                                    <span><i className="fas fa-spa"></i> Luxury Spa</span>
-                                    <span><i className="fas fa-dumbbell"></i> Gym</span>
-                                    <span><i className="fas fa-cocktail"></i> Rooftop Bar</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
 
-                    {/* Branch 3 - Paris */}
-                    <div className="col-md-6 col-lg-4">
-                        <div className="branch-card">
-                            <div className="branch-image-wrapper">
-                                <img
-                                    src="https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
-                                    alt="Paris Luxury Hotel"
-                                    className="branch-image"
-                                />
                                 <div className="branch-overlay">
-                                    <span className="branch-tag romantic">Romantic</span>
+                                    <span className="branch-tag new">Future</span>
                                 </div>
                             </div>
                             <div className="branch-content">
                                 <div className="branch-location">
                                     <i className="fas fa-map-marker-alt text-primary"></i>
-                                    <span className="branch-country">Paris, France</span>
+                                    <span className="branch-country">NEOM, Saudi Arabia</span>
                                 </div>
-                                <h3 className="branch-name">Champs-Élysées LuxuryStay</h3>
+                                <h3 className="branch-name">Durramah NEOM Horizon</h3>
                                 <p className="branch-description">
-                                    Historic elegance meets modern luxury steps away from the Arc de Triomphe.
-                                </p>
-                                <div className="branch-features">
-                                    <span><i className="fas fa-wine-glass-alt"></i> Wine Cellar</span>
-                                    <span><i className="fas fa-parking"></i> Valet Parking</span>
-                                    <span><i className="fas fa-concierge-bell"></i> 24/7 Concierge</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    {/* Branch 4 - Bali */}
-                    <div className="col-md-6 col-lg-4">
-                        <div className="branch-card">
-                            <div className="branch-image-wrapper">
-                                <img
-                                    src="https://images.unsplash.com/photo-1537996194471-e657df975ab4?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
-                                    alt="Bali Resort"
-                                    className="branch-image"
-                                />
-                                <div className="branch-overlay">
-                                    <span className="branch-tag beachfront">Beachfront</span>
-                                </div>
-                            </div>
-                            <div className="branch-content">
-                                <div className="branch-location">
-                                    <i className="fas fa-map-marker-alt text-primary"></i>
-                                    <span className="branch-country">Bali, Indonesia</span>
-                                </div>
-                                <h3 className="branch-name">Ubud LuxuryStay Retreat</h3>
-                                <p className="branch-description">
-                                    Tropical paradise with private villas, rice terrace views, and traditional Balinese spa.
-                                </p>
-                                <div className="branch-features">
-                                    <span><i className="fas fa-umbrella-beach"></i> Private Beach</span>
-                                    <span><i className="fas fa-yoga"></i> Yoga Studio</span>
-                                    <span><i className="fas fa-tree"></i> Garden Views</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    {/* Branch 5 - New York */}
-                    <div className="col-md-6 col-lg-4">
-                        <div className="branch-card">
-                            <div className="branch-image-wrapper">
-                                <img
-                                    src="https://images.unsplash.com/photo-1519046904884-53103b34b206?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
-                                    alt="New York City Hotel"
-                                    className="branch-image"
-                                />
-                                <div className="branch-overlay">
-                                    <span className="branch-tag business">Business</span>
-                                </div>
-                            </div>
-                            <div className="branch-content">
-                                <div className="branch-location">
-                                    <i className="fas fa-map-marker-alt text-primary"></i>
-                                    <span className="branch-country">New York, USA</span>
-                                </div>
-                                <h3 className="branch-name">Times Square LuxuryStay</h3>
-                                <p className="branch-description">
-                                    Iconic location in the heart of Manhattan with Broadway views and luxury amenities.
-                                </p>
-                                <div className="branch-features">
-                                    <span><i className="fas fa-briefcase"></i> Business Center</span>
-                                    <span><i className="fas fa-cookie-bite"></i> 24/7 Room Service</span>
-                                    <span><i className="fas fa-theater-masks"></i> Theater Packages</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    {/* Branch 6 - Tokyo */}
-                    <div className="col-md-6 col-lg-4">
-                        <div className="branch-card">
-                            <div className="branch-image-wrapper">
-                                <img
-                                    src="https://images.unsplash.com/photo-1540959733332-eab4deabeeaf?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
-                                    alt="Tokyo Modern Hotel"
-                                    className="branch-image"
-                                />
-                                <div className="branch-overlay">
-                                    <span className="branch-tag new">New</span>
-                                </div>
-                            </div>
-                            <div className="branch-content">
-                                <div className="branch-location">
-                                    <i className="fas fa-map-marker-alt text-primary"></i>
-                                    <span className="branch-country">Tokyo, Japan</span>
-                                </div>
-                                <h3 className="branch-name">Shibuya LuxuryStay Tower</h3>
-                                <p className="branch-description">
-                                    Modern sophistication with cutting-edge technology and panoramic city views.
+                                    A next-generation luxury experience aligned with Saudi Vision 2030 innovation.
                                 </p>
                                 <div className="branch-features">
                                     <span><i className="fas fa-robot"></i> Smart Rooms</span>
-                                    <span><i className="fas fa-hot-tub"></i> Onsen Spa</span>
-                                    <span><i className="fas fa-subway"></i> Metro Access</span>
+                                    <span><i className="fas fa-solar-panel"></i> Sustainable Energy</span>
+                                    <span><i className="fas fa-wifi"></i> Ultra-Fast Internet</span>
                                 </div>
                             </div>
                         </div>
                     </div>
-                </div>
 
+                </div>
             </div>
         </div>
+
 
     )
 }

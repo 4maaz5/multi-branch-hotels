@@ -1,0 +1,37 @@
+{
+    "header": {
+        "logo": "دررامة",
+        "home": "الرئيسية",
+        "about": "من نحن",
+        "branches": "الفروع",
+        "rooms": "الغرف",
+        "gallery": "المعرض",
+        "toggle": "EN"
+    },
+    "slider": {
+        "wellness_spa": "منتجع صحي",
+        "rejuvenate_your_mind": "انتعش عقلك وجسمك مع علاجات حصرية",
+        "fine_dining_experience": "تجربة طعام فاخرة",
+        "gourmet_cuisine_prepared": "مأكولات فاخرة معدة بواسطة طهاة حائزين على جوائز",
+        "grand_lobby": "الردهة الكبرى",
+        "elegant_architecture_with": "تصميم أنيق مع مناطق جلوس فاخرة",
+        "previous": "السابق",
+        "next": "التالي"
+    },
+    "about": {
+        "about_durramah": "عن DURRAMAH",
+        "saudi_hospitality_rooted": "ضيافة سعودية متجذرة في التراث، مرتفعة بالفخامة",
+        "for_over_two_decades": "لأكثر من عقدين، تمثل DURRAMAH بفخر جوهر الضيافة السعودية — حيث يجتمع التراث والكرم والفخامة الحديثة. من قلب المملكة، نقدم تجارب راقية للمسافرين والعائلات وضيوف الأعمال الباحثين عن الراحة والأصالة والتميز.",
+        "excelance_and_quality": "التميز والجودة",
+        "recognized_for_premium_service": "معروفة بمعايير الخدمة الفاخرة",
+        "strategic_locations": "مواقع استراتيجية",
+        "prime_properties": "عقارات متميزة",
+        "guest_centered_service": "خدمة تركز على الضيف",
+        "trusted_by_families": "موثوقة من قبل العائلات والمسافرين من رجال الأعمال",
+        "sustainable_vision": "رؤية مستدامة",
+        "aligned_with_saudi": "متوافقة مع رؤية المملكة 2030",
+        "years_of_hospitality": "سنوات من الضيافة",
+        "satisfied_guests": "الضيوف الراضون",
+        "cities_accross_ksa": "مدن في جميع أنحاء المملكة"
+    }
+}
